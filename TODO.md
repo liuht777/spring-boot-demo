@@ -1,6 +1,6 @@
 # spring-boot-demo 项目待办列表
 
-## 模块计划(已完成：47 / 57)
+## 模块计划(已完成：51 / 63)
 
 - [x] ~~spring-boot-demo-helloworld（Helloworld 示例）~~
 - [x] ~~spring-boot-demo-properties（读取配置文件信息）~~
@@ -19,7 +19,7 @@
 - [x] ~~spring-boot-demo-orm-jpa（操作 SQL 关系型数据库 - JPA）~~
 - [x] ~~spring-boot-demo-orm-mybatis（操作 SQL 关系型数据库 - mybatis）~~
 - [x] ~~spring-boot-demo-orm-mybatis-mapper-page（操作 SQL 关系型数据库 - 集成mybatis通用Mapper,PageHelper）~~
-- [x] ~~spring-boot-demo-orm-mybatis-plus（操作 SQL 关系型数据库 - 集成mybatis-plus）~~
+- [x] ~~spring-boot-demo-orm-mybatis-plus（操作 SQL 关系型数据库 - 集成mybatis-plus，Mapper操作、ActiveRecord操作）~~
 - [x] ~~spring-boot-demo-orm-beetlsql（操作 SQL 关系型数据库 - beetlSQL）~~
 - [x] ~~spring-boot-demo-cache-redis（使用 redis 进行缓存）~~
 - [x] ~~spring-boot-demo-cache-ehcache（使用 Ehcache 进行缓存）~~
@@ -59,6 +59,12 @@
 - [x] ~~spring-boot-demo-codegen（集成 velocity 自动生成代码）~~
 - [x] ~~spring-boot-demo-graylog（集成 gralog 日志管理）~~
 - [ ] spring-boot-demo-sso（集成单点登录）参见 [ISSUE#12](https://github.com/xkcoding/spring-boot-demo/issues/12)
+- [x] ~~spring-boot-demo-ldap （集成 ldap）参见 [ISSUE#23](https://github.com/xkcoding/spring-boot-demo/issues/23)~~
+- [x] ~~spring-boot-demo-dynamic-datasource（动态添加数据源，切换数据源）~~
+- [x] ~~spring-boot-demo-ratelimit-guava（单机限流保护API，集成Guava的RateLimiter）~~
+- [ ] spring-boot-demo-ratelimit-redis（集群限流保护API，使用 Redis 令牌桶）
+- [ ] spring-boot-demo-https（集成 HTTPS）
+- [x] ~~spring-boot-demo-elasticsearch-rest-high-level-client（集成 Elasticsearch 7.x 版本，使用官方 rest high level client操作 ES 数据）~~
 
 ## 备注
 
