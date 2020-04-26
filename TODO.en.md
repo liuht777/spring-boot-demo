@@ -1,6 +1,6 @@
 # spring-boot-demo Project TODO List
 
-## Module plan (completed: 50 / 62)
+## Module plan (completed: 54 / 66)
 
 - [x] ~~spring-boot-demo-helloworld(helloworld example)~~
 - [x] ~~spring-boot-demo-properties (read configuration file information)~~
@@ -62,9 +62,12 @@
 - [x] ~~spring-boot-demo-ldap （integrated ldap）see [ISSUE#23](https://github.com/xkcoding/spring-boot-demo/issues/23)~~
 - [x] ~~spring-boot-demo-dynamic-datasource（add datasource dynamically, switch datasource dynamically）~~
 - [x] ~~spring-boot-demo-ratelimit-guava（use Guava RateLimiter to protect API by standalone rate limiting）~~
-- [ ] spring-boot-demo-ratelimit-redis（use Redis Token bucket to protect API by cluster rate limiting）
-- [ ] spring-boot-demo-https（integrated HTTPS）
+- [x] ~~spring-boot-demo-ratelimit-redis（use Redis and Lua script implementation to protect API by distributed rate limiting）~~
+- [x] ~~spring-boot-demo-https（integrated HTTPS）~~
 - [x] ~~spring-boot-demo-elasticsearch-rest-high-level-client（integrated Elasticsearch 7.x version，use official Rest High Level Client to operate ES data）~~
+- [ ] spring-boot-demo-springbatch（data process）
+- [ ] spring-boot-demo-security-justauth（use JustAuth to login GitHub，and use Spring-Security to manage login state）
+- [x] ~~spring-boot-demo-flyway（integrated Flyway to initialize tables and data in database, Flyway also support the sql script version control）~~
 
 ## Remarks
 
